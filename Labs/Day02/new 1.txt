@@ -1,0 +1,43 @@
+dapi330b77f3b948605a1c73d31c3738701a-3
+
+jdbc:spark://adb-8820473837697483.3.azuredatabricks.net:443/default;transportMode=http;ssl=1;httpPath=sql/protocolv1/o/8820473837697483/1121-112838-3f42f91d;AuthMech=3;UID=token;PWD=<personal-access-token>
+
+
+App Registration:-
+adlsgen2-access
+
+secret:-
+2vC8Q~CqgqkRL1UM_zLg3kvcALG1OovBBdlkocuY
+
+appId: 76ab9d9c-90cd-4d1d-8f06-f27293b6c598
+tenantId:-3bf3cf81-25c1-49e5-8989-85ec9cfda95a
+
+
+
+AzureBLOBStorageGen2 -- > ETL -- > SQL Server
+
+
+SQL Server Instance:-
+DBName:- sqldbcarao2023
+ServerName:- sqlservercarao2023
+
+SQLServerAuthentication:-
+carao2023admin
+Welcome123$
+
+
+JDBC ConnectionString:- jdbc:sqlserver://sqlservercarao2023.database.windows.net:1433;database=sqldbcarao2023;user=carao2023admin@sqlservercarao2023;password=Welcome123$;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+
+Kafka VM:-
+carao2023admin
+Welcome1234%
+
+win11vmkafkacarao2023.eastus.cloudapp.azure.com
+
+
+Event Hub:-
+namespace:- carao2023eventhub
+name:-vehicleposition
+
+connectionstring Primary key:-
+Endpoint=sb://carao2023eventhub.servicebus.windows.net/;SharedAccessKeyName=readwrite;SharedAccessKey=eOlZaWO4qP/etM4GPkOcw98vbZXb6JLXPmUrpBJdSOQ=
